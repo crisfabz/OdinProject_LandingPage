@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Roboto';
-  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +9,6 @@ body {
 }
 
 /*Navigation bar*/
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -30,7 +24,7 @@ body {
   width: 1250px;
 }
 
-.nav-bar a {
+.navbar a {
   text-decoration: none;
 }
 
@@ -58,7 +52,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #1f2937;
-  height: 500px;
+  height: 465px;
 }
 
 .header-items {
@@ -108,4 +102,51 @@ body {
   height: 270px;
   width: 500px;
   color: #f9faf8;
+}
+
+/* Page Information */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 465px;
+}
+
+.information-header {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.information-items {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-header-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2931;
+}
+
+.item-image {
+  border: 4px solid #3882f6;
+  border-radius: 10%;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.item-text {
+  text-align: center;
+  color: #1f2931;
+  width: 70%;
+  margin-top: 10px;
 }
