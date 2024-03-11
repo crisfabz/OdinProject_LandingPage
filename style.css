@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -149,4 +151,36 @@ body {
   color: #1f2931;
   width: 70%;
   margin-top: 10px;
+}
+
+/* Testimonials */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 465px;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin-left: 30px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2931;
+}
+
+.author {
+  font-size: 24px;
+  display: flex;
+  justify-content: end;
+  font-weight: bolder;
+  color: #1f2931;
+  margin-right: 50px;
 }
