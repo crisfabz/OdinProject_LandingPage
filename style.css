@@ -219,3 +219,17 @@ body {
   color: #f9faf8;
   margin-top: 5px;
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2931;
+  height: 100px;
+}
+
+.footer-item p {
+  font-size: 16px;
+  color: #f9faf8;
+}
