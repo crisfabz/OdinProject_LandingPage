@@ -184,3 +184,38 @@ body {
   color: #1f2931;
   margin-right: 50px;
 }
+
+/* Call to action */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 350px;
+}
+
+.cta-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3882f6;
+  width: 1250px;
+  padding: 50px;
+}
+
+.cta-btn-sign-up {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 15px;
+  width: 125px;
+}
+
+.cta-1 p {
+  color: #f9faf8;
+  margin-top: 5px;
+}
